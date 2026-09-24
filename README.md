@@ -12,3 +12,10 @@ Built with Python, Django and PostgreSQL.
 - Class Based Views
 - Django REST Framework
 - Deploy on AWS
+
+## Progress
+- [x] Django project created
+- [x] Cars app created
+- [x] Initial migrations applied
+- [ ] Car model
+- [ ] Admin configuration
