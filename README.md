@@ -17,5 +17,6 @@ Built with Python, Django and PostgreSQL.
 - [x] Django project created
 - [x] Cars app created
 - [x] Initial migrations applied
+- [x] Create super user
 - [ ] Car model
 - [ ] Admin configuration
