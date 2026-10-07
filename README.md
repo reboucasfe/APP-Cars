@@ -19,4 +19,8 @@ Built with Python, Django and PostgreSQL.
 - [x] Initial migrations applied
 - [x] Create super user
 - [X] Car model
-- [ ] Admin configuration
+- [X] Admin configuration
+- [X] Create car registration
+- [X] Create car photo registration
+- [X] Create template view user
+- [X] .....
