@@ -3,10 +3,10 @@
         <title>My Car List</title>
     </head>
     {% block content%}
-
         <body>
-            <h3> Carro 1:{{ cars.model}}</h3>
+            {% for car in cars %}
+                <h3> {{ car.model }} - {{ car.brand}} - {{ car.factory_year}}</h3>
+            {% endfor %}
         </body>
-
     {% endblock  %}
 </html>
