@@ -2,10 +2,12 @@ from django.shortcuts import render
 from cars.models import Car 
 
 def cars_view(request):
-    print(request.GET)
+    cars = Car.objects.all().order_by('model')
     
-    
-    cars = Car.objects.all()
+    search = request.GET.get('search')
+    if search:
+        cars = Car.objects.filter(model__icontains=search)
+
        
     return render(
         request, 
