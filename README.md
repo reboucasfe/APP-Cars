@@ -2,6 +2,8 @@
 
 A learning project developed while following the Django Master course. Built with Python, Django, and PostgreSQL, this application provides car inventory management functionality, including CRUD operations, authentication, inventory statistics, and AI-powered car descriptions using the OpenAI API.
 
+The project was deployed to AWS EC2, covering Linux server configuration, production application serving, web server integration, and infrastructure backup.
+
 ## Technologies
 
 - Python
@@ -10,6 +12,12 @@ A learning project developed while following the Django Master course. Built wit
 - Django ORM
 - HTML and CSS
 - OpenAI API (GPT-4.1 nano)
+- AWS EC2
+- Ubuntu Server
+- Nginx
+- uWSGI
+- Unix sockets
+- systemd
 - Git and GitHub
 
 ## Topics Covered
@@ -31,6 +39,14 @@ A learning project developed while following the Django Master course. Built wit
 - Environment variables for API key management
 - Automated car description generation
 - Git branching, commits, and pull requests
+- AWS EC2 instance configuration
+- Ubuntu Server administration
+- PostgreSQL production configuration
+- Nginx and uWSGI integration
+- Application serving through a Unix socket
+- systemd service configuration
+- Static public IP configuration
+- EC2 image backup using Amazon Machine Images (AMI)
 
 ## Progress
 
@@ -101,17 +117,22 @@ A learning project developed while following the Django Master course. Built wit
 - [x] Pull requests
 - [x] Feature development and refactoring through pull requests
 
-### Next Steps
+### AWS Deployment
 
-- [ ] Understand how Django works with relational databases
-- [ ] Install and configure PostgreSQL
-- [ ] Create a PostgreSQL database for the project
-- [ ] Configure Django to connect to PostgreSQL
-- [ ] Explore database management using pgAdmin (optional)
-- [ ] Django REST Framework
-- [ ] Automated tests
-- [ ] API authentication and permissions
-- [ ] AWS deployment
+- [x] AWS EC2 instance created
+- [x] Ubuntu Server configured
+- [x] SSH access configured
+- [x] Git access configured on the server
+- [x] Python application environment configured
+- [x] PostgreSQL configured on the server
+- [x] Django application deployed
+- [x] uWSGI configured as the application server
+- [x] Unix socket configured for Nginx and uWSGI communication
+- [x] Nginx installed and configured
+- [x] Static file serving configured
+- [x] systemd service configured for application management
+- [x] Static public IP configured
+- [x] EC2 image backup created
 
 ## Project Goals
 
@@ -120,4 +141,6 @@ A learning project developed while following the Django Master course. Built wit
 - Apply authentication, authorization, and database operations.
 - Integrate external APIs into a Django application.
 - Develop good software engineering practices using Git and GitHub.
-- Progress toward building and deploying production-ready web applications.
+- Gain practical experience deploying Django applications to AWS.
+- Strengthen backend development, Linux, database, and cloud infrastructure skills.
+- Progress toward building and maintaining production-ready web applications.
